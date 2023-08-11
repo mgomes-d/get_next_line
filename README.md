@@ -13,6 +13,8 @@ To use the `get_next_line` function in your C program, you need to include the h
 Here's an example of how to use the `get_next_line` function:
 
 ```c
+#include <fcntl.h>
+#include <stdio.h>
 #include "get_next_line.h"
 
 int main() {
